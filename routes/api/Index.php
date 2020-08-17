@@ -1,0 +1,7 @@
+<?php
+global $REQUEST, $RESPONSE, $STATUS_CODE;
+
+$STATUS_CODE = 200;
+
+$RESPONSE->version = VER_MMP;
+$RESPONSE->build = VER_BUILD;

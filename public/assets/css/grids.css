@@ -1,0 +1,38 @@
+
+/* Generic */
+.grid {
+    display: grid;
+}
+/* Generic */
+
+
+
+/* Automatic Columns */
+.grid.auto3 {
+    grid-template-columns: repeat(3, auto);
+}
+
+.grid.auto4 {
+    grid-template-columns: repeat(4, auto);
+}
+
+.grid.auto5 {
+    grid-template-columns: repeat(5, auto);
+}
+
+.grid.auto6 {
+    grid-template-columns: repeat(6, auto);
+}
+
+.grid.auto7 {
+    grid-template-columns: repeat(7, auto);
+}
+
+.grid.auto8 {
+    grid-template-columns: repeat(8, auto);
+}
+
+.grid.auto9 {
+    grid-template-columns: repeat(9, auto);
+}
+/* Automatic Columns */

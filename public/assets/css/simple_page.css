@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body.simple-page {
+    background-color: #eeeeee;
+    font-family: 'Nunito', serif;
+}
+
+.simple-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    min-width: 40vw;
+}
+
+.alert, .alert-dismissible .close {
+    padding: 0.4rem 0.8rem !important;
+}
